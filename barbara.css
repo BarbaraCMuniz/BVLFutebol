@@ -1,0 +1,82 @@
+
+
+	.bg{
+		font-family: Arial, Helvetica, sans-serif;
+		font-size: 100%;
+		background-color: hsl(0, 0%, 80%);
+		background-repeat: no-repeat;
+		background-size: cover;
+		padding: 1%;
+	}
+
+	
+	div.image-align img{  
+		max-height: 100%;
+		max-width: 100%;
+		width: auto;
+		height: auto;
+		margin: auto;
+		position: absolute;
+		top: 0;
+		bottom: 0;
+		left: 0;
+		right: 0;
+    }
+	
+	
+	div.sticky {
+		position: -webkit-sticky;
+		position: sticky;
+		top: 0;
+		padding: 2%;
+		background-color: hsl(0, 30%, 75%);
+		opacity:0,3;	
+	}
+	
+	h2{ color: orange;
+	font-family: cursive;
+	}
+	
+	
+	h3{ color: hsl(0, 30%, 60%);
+	font-family: cursive;
+	margin-left: 300px;
+	margin-right: 300px;
+	border-style: double; 
+	border-radius: 15px;
+	border-bottom-width: 15px;
+		border-top-width: 15px;
+		border-right-width:15px;
+		border-left-width: 15px;
+	}
+
+	nav {
+		background: hsl(0, 22%, 39%);
+		font-size: 25px;
+		font-family: comics;
+	}
+
+	nav ul {
+		list-style-type: none;
+	}
+
+
+	nav ul li {
+		color: red;
+		border-right: 1px solid #d4e4ef;
+		display: inline-block;
+	}
+
+	nav ul li a {
+		text-decoration: none;
+		display: block;
+		color: orange;
+		background-color: hsl(0, 22%, 39%);
+		padding: 15px;
+	}
+
+	footer {
+		background: hsl(0, 15%, 75%);
+		height: 7rem;
+		color: orange;
+	}

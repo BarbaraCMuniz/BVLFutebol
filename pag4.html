@@ -3,6 +3,15 @@
 	<head>
 	<title > BVL Futebol </title>
 	<link rel="stylesheet" type="text/css" href="css/external.css" />
+	<script>
+        function calcSum() {
+            let num1 = document.getElementsByName("sizeValue")[0].value;
+            let num2 = document.getElementsByName("quantity")[0].value;
+            let sum = Number(num1) * Number(num2);
+            document.getElementsByName("sum")[0].value = sum;
+        }
+  	  </script>
+
 	</head>
 	<body class="bg">      
 
